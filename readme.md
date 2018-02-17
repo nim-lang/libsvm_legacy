@@ -9,3 +9,5 @@ Just add this to your .nimble file:
 ```nim
 requires "libsvm_legacy"
 ```
+
+And change ``import libsvm`` to ``import libsvm_legacy/libsvm``.
